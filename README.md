@@ -1,13 +1,12 @@
-# Next.js-Currency-Converter-Real-Time-Exchange-Rate-App
-A robust and modern Currency Converter built using the Next.js framework. This project showcases high-performance React development, utilizing server-side rendering (SSR) or static site generation (SSG) for fast load times and excellent SEO.
-It features real-time exchange rate data fetched from a reliable external API (e.g., Fixer, Open Exchange Rates, or a similar service). The clean, responsive UI ensures a smooth experience across all devices.
+# React + Vite
 
-Key Technical Highlights:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-⚡ Framework: Built with Next.js (React) for performance.
+Currently, two official plugins are available:
 
-📡 Data Source: Fetches real-time exchange rates via API (mention the specific API if known).
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-📱 Design: Fully responsive and mobile-friendly UI.
+## Expanding the ESLint configuration
 
-🛠️ Features: Instant conversion, customizable source/target currencies, and a clean interface.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
